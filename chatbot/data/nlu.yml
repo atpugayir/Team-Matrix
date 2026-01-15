@@ -1,0 +1,46 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - take care
+
+- intent: scheme_pmfb
+  examples: |
+    - pmfb
+    - pmfby
+    - fasal bima yojana
+    - crop insurance scheme
+    - tell me about pmfb
+
+- intent: scheme_pmjdy
+  examples: |
+    - pmjdy
+    - jan dhan yojana
+    - zero balance account
+    - bank account scheme
+
+- intent: scheme_kvp
+  examples: |
+    - kvp
+    - kisan vikas patra
+    - savings scheme
+    - government savings scheme
+
+- intent: iamabot
+  examples: |
+    - are you a bot
+    - are you human
+    - what are you
+

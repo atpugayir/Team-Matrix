@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye path
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: pmfb path
+  steps:
+  - intent: scheme_pmfb
+  - action: utter_scheme_pmfb
+
+- story: pmjdy path
+  steps:
+  - intent: scheme_pmjdy
+  - action: utter_scheme_pmjdy
+
+- story: kvp path
+  steps:
+  - intent: scheme_kvp
+  - action: utter_scheme_kvp
+

@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+
+- rule: respond to pmfb
+  steps:
+    - intent: scheme_pmfb
+    - action: utter_scheme_pmfb
+
+- rule: respond to kvp
+  steps:
+    - intent: scheme_kvp
+    - action: utter_scheme_kvp
+
+- rule: respond to pmjdy
+  steps:
+    - intent: scheme_pmjdy
+    - action: utter_scheme_pmjdy
+
+- rule: say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
