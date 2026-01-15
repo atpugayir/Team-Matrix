@@ -1,0 +1,25 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_insurance
+  - iamabot
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a nice day."
+
+  utter_scheme_pmfb:
+    - text: "Pradhan Mantri Fasal Bima Yojana provides crop insurance to farmers."
+
+  utter_scheme_pmjdy:
+    - text: "Pradhan Mantri Jan Dhan Yojana offers basic banking services."
+
+  utter_scheme_kvp:
+    - text: "Kisan Vikas Patra is a small savings scheme."
+
+actions: []
